@@ -6,10 +6,10 @@ public class Main {
 //        ThreadPoolExecutor pool = new ThreadPoolExecutor(5, 10, 200,
 //                TimeUnit.MILLISECONDS, new ArrayBlockingQueue<Runnable>(5));
         //核心线程数=最大线程数
-//        ExecutorService pool = Executors.newFixedThreadPool(5);
+        ExecutorService pool = Executors.newFixedThreadPool(5);
 
         //单一线程池
-        ExecutorService pool = Executors.newSingleThreadExecutor();
+//        ExecutorService pool = Executors.newSingleThreadExecutor();
 
         //缓存线程池
 //        ExecutorService pool = Executors.newCachedThreadPool();
